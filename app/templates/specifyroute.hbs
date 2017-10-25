@@ -1,0 +1,8 @@
+<h2>List of Players</h2>
+<ul>
+   //The <i>each</i> helper to loop over each item in the array provided from model() hook
+   {{#each model as |player|}}
+      <li>{{player}}</li>
+   {{/each}}
+</ul>
+{{outlet}}
