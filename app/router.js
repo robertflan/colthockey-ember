@@ -11,10 +11,7 @@ const Router = Ember.Router.extend ({
 
 //Defines URL mappings that takes parameter as an object to create the routes
 Router.map(function() {
-   this.route('nestedroute', function() {
-      this.route('fruits');
-   });
-});
-
+    this.route('specifyroute');
+ });
 //It specifies Router variable available to other parts of the app
 export default Router;
